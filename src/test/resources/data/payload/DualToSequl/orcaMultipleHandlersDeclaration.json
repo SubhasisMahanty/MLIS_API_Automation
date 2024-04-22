@@ -1,0 +1,113 @@
+{
+  "appId": "Orca",
+  "message": {
+    "binder": {
+      "binderPolicyRef": "10000TA21",
+      "binderSectionCode": "A"
+    },
+    "policyRef": "",
+    "policySectionCode": "A",
+    "policyDsc": "Orca Declaration {{timestamp}}",
+    "businessType": "Reinsurance",
+    "inceptionDate": "2021-01-01T00:00:00.000000Z",
+    "expiryDate": "2021-12-31T00:00:00.000000Z",
+    "policyType": "Excess of Loss TTY",
+    "product": "Treaty Reinsurance",
+    "timeZone": "As Original Policy",
+    "timeZoneDsc": "Both Days Inclusive",
+    "marketsheetindicator ":true,
+    "createNonExistingOrgs": true,
+    "inheritDeductionsAndTaxes": true,
+    "inheritClassOfBusinesss": true,
+    "assignedHandlers": [
+      {
+        "individualName": "Tony Lovett",
+        "individualTitle": "Producer",
+        "functionName": "Placement",
+        "departmentName": "Binder Underwriter",
+        "teamName": "Tamesis",
+        "splitPct": 100,
+        "primaryHandler": true
+      },
+      {
+        "individualName": "Zain Anwar",
+        "individualTitle": "Treasurer",
+        "functionName": "Ledger",
+        "departmentName": "Finance",
+        "teamName": "Tamesis",
+        "splitPct": 0,
+        "primaryHandler": true
+      }
+    ],
+    "orgs": [
+      {
+        "name": "Aon UK Limited",
+        "role": "Client",
+        "selectedInd": false
+      },
+      {
+        "name": "Test Insured {{timestamp}}",
+        "role": "Insured",
+        "selectedInd": true,
+        "org": {
+          "glIndicator": "External",
+          "status": "Approved",
+          "domicileCountry": "GB",
+          "effectiveDate": "2020-10-29T16:22:27.543581Z",
+          "roles": [
+            {
+              "roleName": "Insured",
+              "roleDsc": "Test Insured {{timestamp}}"
+            }
+          ],
+          "orgNames": [
+            {
+              "name": "Test Insured {{timestamp}}",
+              "nameType": "Legal"
+            }
+          ],
+          "addresses": [
+            {
+              "addr": "asdfsdf, fasdf, asf, sadf",
+              "addrType": "Head",
+              "domicileCountry": "GB",
+              "postCode": "sadf"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Acappella Syndicate 2014",
+        "role": "Insured",
+        "selectedInd": true
+      },
+
+      {
+        "name": "Acappella Syndicate 2014",
+        "role": "Reinsured",
+        "selectedInd": true
+      },
+
+
+      {
+        "name": "Marsh Ltd",
+        "role": "ThirdParty",
+        "nameType":"Legal",
+        "selectedInd": false
+      }
+    ],
+    "dedAndTaxes": [
+      {
+        "deductionTaxCategory": "Client Overrider",
+        "deductionTaxPct": 10
+      }
+
+    ],
+    "classOfBusinesss": [
+      {
+        "businessClassValue": "M Composite Energy",
+        "riskCode": "XT"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "appId": "BIQP",
+  "message": {
+    "PolicyRef": "10411HI21",
+    "PolicySectionCode": "Sec1DILBS0001A",
+    "LegalEntityName": "DUAL Ibérica Riesgos Profesionales, SAU DUAL Healthcare",
+    "authoriseAndPost": true,
+    "transactionInfo": {
+      "transType": "PRM",
+      "transactionDate": "2021-04-01T00:00:00Z",
+      "BillingCcyISO": "EUR",
+      "LedgerCcyISO": "EUR",
+      "roe": 1,
+      "AsAtDate": "2021-04-01T00:00:00Z",
+      "reinsuredOrg": "",
+      "insuredOrg": "Test Insured {{timestamp}}",
+      "clientOrg": "ARB International Ltd",
+      "PPType": "None",
+      "clientSettDueDate": "2021-04-02T00:00:00Z",
+      "UWSettDueDate": "2021-04-02T00:00:00Z",
+      "PremiumDetails": [
+        {
+          "premiumTerm": "A",
+          "riskCode": "GM",
+          "OrigAmtGross": 1000
+        }
+      ]
+    }
+  }
+}

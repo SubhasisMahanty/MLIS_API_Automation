@@ -1,0 +1,30 @@
+{
+  "appId": "Orca",
+  "message": {
+    "PolicyRef": "",
+    "PolicySectionCode": "A",
+    "LegalEntityName": "DUAL Corporate Risks Limited",
+    "authoriseAndPost": true,
+    "transactionInfo": {
+      "transType": "PRM",
+      "transactionDate": "2021-04-22T00:00:00Z",
+      "BillingCcyISO": "GBP",
+      "LedgerCcyISO": "GBP",
+      "roe": 1,
+      "AsAtDate": "2021-04-22T00:00:00Z",
+      "reinsuredOrg": "Acappella Syndicate 2014",
+      "insuredOrg": "Acappella Syndicate 2014",
+      "clientOrg": "Aon UK Limited",
+      "PPType": "None",
+      "clientSettDueDate": "2021-04-24T00:00:00Z",
+      "UWSettDueDate": "2021-04-24T00:00:00Z",
+      "PremiumDetails": [
+        {
+          "premiumTerm": "A",
+          "riskCode": "XT",
+          "OrigAmtGross": 100
+        }
+      ]
+    }
+  }
+}

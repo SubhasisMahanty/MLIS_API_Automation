@@ -1,0 +1,18 @@
+#####################  BASE URI  ####################
+BASE_URI_DUAL_TO_SEQUL=https://api.dualdev.co.uk
+
+
+
+
+#####################  DETAILS  ####################
+
+CONTENT-TYPE=application/json
+OCP-APIM-SUBSCRIPTION-KEY=435e9e97a2e145be98378612b31c5c3d
+
+###################  Dual To Sequel Oauth  ###################
+DualToSequel_ID=d38c0c7d-fe62-495d-bf61-7a89b87ca573
+DualToSequel_Secret=5MZeCKoJ~8ruN1sz-Krowg16F5r~N58P4-
+DualToSequel_Scope=api://dual.api.sequel/.default
+DualToSequel_grant_type=client_credentials
+DualToSequel_URL=https://login.microsoftonline.com/425682c2-59d3-44d4-a709-0a3c26593cb7/oauth2/v2.0/token
+

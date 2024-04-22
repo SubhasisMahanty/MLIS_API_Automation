@@ -1,0 +1,98 @@
+{
+  "appId": "BIQP",
+  "message": {
+    "binder": {
+      "binderPolicyRef": "10000HI21",
+      "binderSectionCode": "Sec1DILBS0001A"
+    },
+    "policyRef": "",
+    "policyDsc": "Create Declaration ",
+    "businessType": "Direct",
+    "inceptionDate": "2021-03-26T00:00:00.000000Z",
+    "expiryDate": "2022-03-26T00:00:00.000000Z",
+    "policyType": "Open Market",
+    "product": "Specialty",
+    "timeZone": "As Original Policy",
+    "timeZoneDsc": "Both Days Inclusive",
+    "createNonExistingOrgs": true,
+    "inheritDeductionsAndTaxes": false,
+    "inheritClassOfBusinesss": false,
+    "assignedHandlers": [
+      {
+        "individualName": "Virginio Mercurio",
+        "individualTitle": "Producer",
+        "primaryHandler": true
+      }
+    ],
+    "orgs": [
+      {
+        "name": "ARB International Ltd",
+        "role": "Client",
+        "selectedInd": false
+      },
+      {
+        "name": "Test Insured {{timestamp}}",
+        "role": "Insured",
+        "selectedInd": true,
+        "org": {
+          "glIndicator": "External",
+          "status": "Approved",
+          "domicileCountry": "GB",
+          "effectiveDate": "2020-10-29T16:22:27.543581Z",
+          "roles": [
+            {
+              "roleName": "Insured",
+              "roleDsc": "Test Insured {{timestamp}}"
+            }
+          ],
+          "orgNames": [
+            {
+              "name": "Test Insured {{timestamp}}",
+              "nameType": "Legal"
+            }
+          ],
+          "addresses": [
+            {
+              "addr": "asdfsdf, fasdf, asf, sadf",
+              "addrType": "Head",
+              "domicileCountry": "GB",
+              "postCode": "sadf"
+            }
+          ]
+        }
+      },
+      {
+        "name": "RKH Specialty Limited c/o RKH Reinsurance Brokers",
+        "role": "ThirdParty",
+        "selectedInd": false
+      }
+    ],
+    "dedAndTaxes": [
+      {
+        "deductionTaxCategory": "UW Allowed Deduction",
+        "deductionTaxPct": 9,
+        "riskCode": "GM"
+      },
+      {
+        "deductionTaxCategory": "Binder Brokerage",
+        "deductionTaxPct": 10,
+        "deductionTaxCcyISO": "GBP",
+        "ledgerAccount": "RKH Specialty Limited c/o RKH Reinsurance Brokers"
+      },
+      {
+        "deductionTaxCategory": "Spain Stamp Duty",
+        "deductionTaxPct": 1
+      },
+      {
+        "deductionTaxCategory": "Spanish Premium Tax",
+        "deductionTaxPct": 6
+      }
+    ],
+    "classOfBusinesss": [
+      {
+        "businessClassValue": "Hospital Professional Liability",
+        "riskCode": "GM"
+      }
+    ]
+  }
+}

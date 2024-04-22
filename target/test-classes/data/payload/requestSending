@@ -1,0 +1,87 @@
+{
+  "callbackUrl": "https://api.biqp.com",
+  "messageId": "8bc86903-46be-49f3-bcb2-ad4b5697937f",
+  "appId": "BIQP",
+  "message": {
+    "binder": {
+      "binderPolicyRef": "10000T19",
+      "binderSectionCode": "Sec 1:LBS0001A"
+    },
+    "policyRef": "string",
+    "policySectionCode": "string",
+    "policyDsc": "string",
+    "businessType": "string",
+    "inceptionDate": "2020-09-22T16:49:00.593Z",
+    "expiryDate": "2020-09-22T16:49:00.593Z",
+    "policyType": "string",
+    "product": "string",
+    "timeZone": "string",
+    "timeZoneDsc": "string",
+    "classification": "string",
+    "ppType": "string",
+    "createNonExistingOrgs": true,
+    "inheritDeductionsAndTaxes": true,
+    "inheritClassOfBusinesss": true,
+    "assignedHandlers": [
+      {
+        "individualName": "string",
+        "individualTitle": "string",
+        "functionName": "string",
+        "departmentName": "string",
+        "teamName": "string",
+        "splitPct": 0,
+        "primaryHandler": true
+      }
+    ],
+    "orgs": [
+      {
+        "name": "string",
+        "role": "string",
+        "subRole": "string",
+        "selectedInd": true,
+        "org": {
+          "status": "string",
+          "glIndicator": "string",
+          "domicileCountry": "string",
+          "effectiveDate": "2020-09-22T16:49:00.593Z",
+          "roles": [
+            {
+              "roleName": "string",
+              "roleDsc": "string"
+            }
+          ],
+          "orgNames": [
+            {
+              "name": "string",
+              "nameType": "string"
+            }
+          ],
+          "addresses": [
+            {
+              "addr": "string",
+              "addrType": "string",
+              "domicileCountry": "string",
+              "postCode": "string"
+            }
+          ]
+        }
+      }
+    ],
+    "dedAndTaxes": [
+      {
+        "deductionTaxCategory": "string",
+        "deductionTaxPct": 0,
+        "deductionTaxAmt": 0,
+        "deductionTaxCcyIso": "string",
+        "ledgerAccount": "string",
+        "territory": "string",
+        "riskCode": "string"
+      }
+    ],
+    "classOfBusinesss": [
+      {
+        "businessClassValue": "string",
+        "riskCode": "string"
+      }
+    ]
+  }}
