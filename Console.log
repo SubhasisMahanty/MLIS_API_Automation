@@ -1,0 +1,24 @@
+2024-04-22 14:48:58 INFO  StepDefCore:48 - Scenario - Execute ORCA Premium Transaction API with different set of transType as present in Excel
+2024-04-22 14:48:59 INFO  StepDefCore:325 - End of Scenario
+2024-04-22 14:48:59 INFO  StepDefCore:48 - Scenario - Execute ORCA Premium Transaction API with different set of PPType as present in Excel .
+2024-04-22 14:48:59 INFO  StepDefCore:325 - End of Scenario
+2024-04-22 14:48:59 INFO  StepDefCore:48 - Scenario - Execute ORCA Premium Transaction API with invalid policy ref in Json and confirm Error is Thrown.
+2024-04-22 14:48:59 INFO  StepDefCore:325 - End of Scenario
+2024-04-22 14:48:59 INFO  StepDefCore:48 - Scenario - Execute ORCA Premium Transaction API without policy ref in Json and confirm Error is Thrown.
+2024-04-22 14:48:59 INFO  StepDefCore:325 - End of Scenario
+2024-04-22 14:48:59 INFO  StepDefCore:48 - Scenario - Execute ORCA Premium Transaction API with authoriseAndPost parameter as True & False. When True Verify Premium trans is authorized and  Posted
+2024-04-22 14:48:59 INFO  StepDefCore:325 - End of Scenario
+2024-04-22 14:48:59 INFO  StepDefCore:48 - Scenario - Execute ORCA Premium Transaction API with authoriseAndPost parameter as True & False. When True Verify Premium trans is authorized and  Posted
+2024-04-22 14:48:59 INFO  StepDefCore:325 - End of Scenario
+2024-04-22 14:48:59 INFO  StepDefCore:48 - Scenario - Execute Premium Transaction API for different BillingCcyISO currency eg (EUR , GBP ,USD)
+2024-04-22 14:48:59 INFO  StepDefCore:325 - End of Scenario
+2024-04-22 14:48:59 INFO  StepDefCore:48 - Scenario - Execute Premium Transaction API for different BillingCcyISO currency eg (EUR , GBP ,USD)
+2024-04-22 14:48:59 INFO  StepDefCore:325 - End of Scenario
+2024-04-22 14:48:59 INFO  StepDefCore:48 - Scenario - Execute Premium Transaction API for different BillingCcyISO currency eg (EUR , GBP ,USD)
+2024-04-22 14:48:59 INFO  StepDefCore:325 - End of Scenario
+2024-04-22 14:48:59 INFO  StepDefCore:48 - Scenario - Execute Premium transaction API with Transdate and Asdate values.
+2024-04-22 14:48:59 INFO  StepDefCore:325 - End of Scenario
+2024-04-22 14:48:59 INFO  StepDefCore:48 - Scenario - Execute Premium Transaction API with riskCode parameter try with different RiskCode Combination.
+2024-04-22 14:48:59 INFO  StepDefCore:325 - End of Scenario
+2024-04-22 14:48:59 INFO  StepDefCore:48 - Scenario - Execute Premium Transaction API transactionDate Date prior to Policy Create Date . And Verify it Fails, try Combination with future Date as well
+2024-04-22 14:48:59 INFO  StepDefCore:325 - End of Scenario

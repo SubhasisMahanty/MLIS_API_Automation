@@ -1,0 +1,45 @@
+# Maven
+
+# Build your Java project and run tests with Apache Maven.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/java
+
+trigger:
+- master
+
+pool:
+  name: 'Default'
+  vmImage: 'vm-dl-dev-testa'
+
+
+steps:
+- task: Maven@3
+  inputs:
+    mavenPomFile: 'pom.xml'
+    # publishJUnitResults: true
+    # testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    javaHomeOption: 'JDKVersion'
+    mavenVersionOption: 'Path'
+    mavenDirectory: 'C:\Program Files\apache-maven-3.8.1'
+    mavenSetM2Home: true
+    mavenAuthenticateFeed: false
+    effectivePomSkip: false
+    sonarQubeRunAnalysis: false
+
+
+- task: NodeTool@0
+  displayName: 'Install Node 12.x'
+  inputs:
+    versionSpec: 12.x
+- task: PublishCucumberReport@1
+  inputs:
+    jsonDir: ./results
+    outputPath: ./results
+    theme: 'bootstrap'
+    reportSuiteAsScenarios: true
+    
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(Pipeline.Workspace)'
+    artifact: 'Outcome'
+    publishLocation: 'pipeline'
